@@ -12,6 +12,27 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Evaluación_iot">
         <activity
+            android:name=".Crear_contrasenia"
+            android:exported="false" />
+        <activity
+            android:name=".Registro_de_usuario"
+            android:exported="false" />
+        <activity
+            android:name=".Modificar_eliminar_usuarios\"
+            android:exported="false" />
+        <activity
+            android:name=".Listas_usuarios"
+            android:exported="false" />
+        <activity
+            android:name=".Act_Menu_Crud"
+            android:exported="false" />
+        <activity
+            android:name=".Act_principal"
+            android:exported="false" />
+        <activity
+            android:name=".Act_login"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
