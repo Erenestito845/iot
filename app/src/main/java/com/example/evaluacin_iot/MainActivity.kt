@@ -1,6 +1,9 @@
 package com.example.evaluacin_iot
 
+import android.content.Intent
 import android.os.Bundle
+import android.os.Handler
+import android.os.Looper
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -16,5 +19,13 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+
+        Handler(Looper.getMainLooper()).postDelayed({
+        // Cargamos el Activity principal
+            val intent = Intent(this, Act_login::class.java)
+            startActivity(intent)
+        // Cerramos el Activity Principal que en este caso es el MainActivity
+            finish()
+        }, 7000) // Tiempo de espera en milisegundos
     }
 }

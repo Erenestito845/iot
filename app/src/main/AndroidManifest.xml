@@ -18,7 +18,7 @@
             android:name=".Registro_de_usuario"
             android:exported="false" />
         <activity
-            android:name=".Modificar_eliminar_usuarios\"
+            android:name=".Modificar_eliminar_usuarios"
             android:exported="false" />
         <activity
             android:name=".Listas_usuarios"
