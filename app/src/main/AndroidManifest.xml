@@ -18,7 +18,7 @@
             android:name=".Crear_contrasenia"
             android:exported="false" />
         <activity
-            android:name=".Registro_de_usuario"
+            android:name=".registro_usuario"
             android:exported="false" />
         <activity
             android:name=".Modificar_eliminar_usuarios"
